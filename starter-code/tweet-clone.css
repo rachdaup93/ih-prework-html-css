@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+    background: rgb(244, 248, 249);
+    font-family: "Lato", "Arial", sans-serif;
+}
+
+.header h1, .header h2{
+    margin: 0;
+}
+
+.header h1{
+    padding: 0 7px;
+}
+h2, .date, .footer{
+    color: rgb(104, 109, 129);
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.column{
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+.header{
+    justify-content:space-between; 
+}
+.twitter{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(225, 232, 237);
+    padding: 30px;
+    border-radius: 25px;
+    width:600px;
+}
+.follow{
+    border-radius: 20px;
+    border: 2px solid rgb(85, 172, 238);
+    padding: 10px;
+}
+
+.follow h2{
+    color: rgb(85, 172, 238);
+    margin-left: 10px;
+}
+
+.date{
+    margin: 0;
+}
+.footer{
+    margin: 0;
+    width: 65%;
+    justify-content: space-between;
+}
+
+.footer img{
+    padding: 5px;
+}
